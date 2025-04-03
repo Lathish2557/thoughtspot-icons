@@ -1,0 +1,17 @@
+/* Change chip background and text color */
+.chip-base-module__chip {
+  background-color: #e0f7fa !important;  /* Example light blue */
+  color: #006064 !important;            /* Darker text for contrast */
+  border: none !important;
+}
+
+/* Customize the avatar initial background and text */
+.avatar-module__bgGreenBase {
+  background-color: #b39ddb !important;  /* Light purple */
+  color: #ffffff !important;             /* White text */
+}
+
+/* Change chart view icon color using filter */
+.chart-table-switcher-module__icon {
+  filter: invert(48%) sepia(52%) saturate(326%) hue-rotate(176deg) brightness(89%) contrast(89%);
+}
