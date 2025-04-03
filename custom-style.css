@@ -1,0 +1,22 @@
+/* ===== 🎯 DYNAMIC TABS (e.g., sum sales, product) ===== */
+.ts-chip,
+.ts-chip.ts-chip--default {
+  background-color: #e6f7ff !important;  /* Light blue */
+  color: #000 !important;                /* Text color */
+  font-weight: 600 !important;
+  border-radius: 12px !important;
+  padding: 6px 12px !important;
+}
+
+.ts-chip.ts-chip--selected {
+  background-color: #bae7ff !important;  /* Selected chip */
+  color: #000 !important;
+}
+
+/* ===== 🙋 USER AVATAR ICON (e.g., "D" in green circle) ===== */
+.ts-avatar {
+  background-color: #FFD700 !important;  /* Gold circle */
+  color: #000 !important;                /* Letter color */
+  font-weight: bold !important;
+  border: 2px solid #000 !important;
+}
